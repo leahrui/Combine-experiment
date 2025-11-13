@@ -110,7 +110,7 @@ hip-joint-detection/
 | MODEL_SAVE_DIR        | Model save directory              | Set a custom model storage path     |
 | DET_MODEL_PATH, etc.  | Paths for YOLO pre-trained models  | Replace with actual pre-trained model paths |
 | DET_CONF_THRESH       | Detection confidence threshold     | Adjust based on data (default: 0.1) |
-| ABNORMAL_P            | Abnormality determination threshold | Threshold for adjusting classification results (default: 0.35) |
+
 
 ## Notes
 1. **Path Configuration**: All paths in the scripts are absolute paths. Before use, modify the `Config` class or relevant path variables according to your local environment.
