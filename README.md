@@ -1,8 +1,8 @@
 # Combine-experiment
-# Combined Model: An X-ray Image Ficat Staging Model for ONFH (Osteonecrosis of the Femoral Head) Based on the Fusion of YOLOv11 and Machine Learning
+# Combined Model: An X-ray Image Ficat Staging Model for ONFH Based on the Fusion of YOLOv11 and Machine Learning
 
 ## Project Introduction
-This project leverages YOLOv11 object detection and segmentation models, integrated with machine learning algorithms such as Decision Tree, Random Forest, and XGBoost, to achieve multi-stage classification of ONFH (Stage II, Stage III, Stage IV, nVNFH). Core functionalities include hip joint object detection, femoral head segmentation, joint space segmentation, calculation of joint space distance and area, and disease staging classification via multi-feature fusion. It is suitable for medical image-assisted diagnosis scenarios.
+This project leverages YOLOv11 object detection and segmentation models, integrated with machine learning algorithms such as Decision Tree, Random Forest, and XGBoost, to achieve multi-stage classification of ONFH (Osteonecrosis of the Femoral Head) (Stage II, Stage III, Stage IV, nVNFH). Core functionalities include hip joint object detection, femoral head segmentation, joint space segmentation, calculation of joint space distance and area, and disease staging classification via multi-feature fusion. It is suitable for medical image-assisted diagnosis scenarios.
 
 ## Core Features
 - **Multi-model Collaboration**: YOLOv11 handles detection and segmentation, while machine learning models manage feature fusion and classification.
