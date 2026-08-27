@@ -199,7 +199,7 @@ class Config:
     VAL_TXT = 'path\\val.txt'
     TEST_TXT = 'path\\test.txt'
     # your combine model's save path
-    MODEL_SAVE_DIR = 'path\\combine.pkl'
+    MODEL_SAVE_DIR = 'path'
     # yolo models' save path
     DET_MODEL_PATH = 'path\\weights\\best.pt'
     SEG_FH_MODEL_PATH = 'path\\weights\\best.pt'
