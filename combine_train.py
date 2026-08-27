@@ -400,7 +400,7 @@ class ModelTrainer:
                     n_jobs=2,
                     verbose=1,
                     scoring='f1_weighted',
-                    n_iter=1000
+                    n_iter=100
                 )
 
                 bayes_search.fit(X_train_processed, y_train, sample_weight=sample_weights)
